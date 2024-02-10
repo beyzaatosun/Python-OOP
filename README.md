@@ -2,12 +2,15 @@
 ⚡️Kapsülleme \ Encapsulation<br />
 Method ya da değişkenlere erişimi kısıtlamak anlamına gelir. Bir sınıftaki değişkenleri özel(private) olarak belirleyerek dış erişimden koruyarak erişim yetkileri belirlenebilir.
 Python’da bir değişkeni özel(private) yapmak için başına iki tane alt çizgi eklenir.<br />
-'
+
+```
 def __init__(self, name, money, adress):
         self.name=name
-        self.__money=money #private değişkenler
+        self.__money=money #private değişken
         self.adress=adress
-'
+```
+
+
 ⚡️Miras \ Inheritance<br />
 Bir sınıfın tüm mirasına sahip yeni bir sınıf oluşturmamızı sağlar. Miras alınan üst sınıfa atıfta bulunan super() fonksiyonu, miras aldığımız bir üst sınıfın nitelik ve metotları üzerinde değişiklik yaparken, mevcut özellikleri de muhafaza edebilmemizi sağlar.
 
